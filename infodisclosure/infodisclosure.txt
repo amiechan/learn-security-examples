@@ -1,3 +1,9 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
 Which CIA property does tampering violate?
 What additional security mechanisms can you incorporate?
+
+The lack of input validation or sanitization can make it susceptible to NoSQL injection attacks.
+The secure version does the input validation and sanitization to prevent this. 
+This violates confidentiality and integrity because the attacker can 
+manipulate or change the behavior of the database by injection. 
+Security mechanisms such as endpoint permissions to prevent information from being manipulated.

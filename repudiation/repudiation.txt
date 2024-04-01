@@ -1,2 +1,8 @@
 - Briefly explain the vulnerability and why the secure version is better at preventing repudiation than the insecure version.
 - What additional security mechanisms can you incorporate to prevent such attacks?
+
+The insecure server lacks logging or user authentication for messages so that
+user actions cannot be verified. The secure version uses logging and authentication
+to ensure only logged-in users are doing actions. 
+Using additional authentication methods can be used to verify a users identity.
+

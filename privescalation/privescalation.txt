@@ -1,0 +1,4 @@
+There is a privilege escalation vulnerability in the insecure server.
+The server does not verify the users authorization so someone could give 
+themselves a different role. Validation and sanitization should be used on 
+the request to enhance security.
